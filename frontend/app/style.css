@@ -1,0 +1,110 @@
+.material-icons.md-36 { font-size: 36px; }
+
+.page-container {
+  max-width: 800px;
+  max-height: 1200px;
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+}
+
+.main-card-wide.mdl-card {
+  width: 100%;
+  height: 100%;
+}
+
+.main-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 90%;
+  background: url('./images/plant.jpg') center / cover;
+}
+
+.mdl-layout__header > .mdl-layout__header-row {
+  padding-top: 4px;
+  margin-left: 8px;
+}
+.main-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.main-card-wide > .mdl-card__actions > .main-card-picture-button {
+  width: 100%;
+}
+
+.camera-panel {
+  display: none;
+}
+
+.camera-panel-active {
+  display: block;
+  position:absolute;
+  background: white;
+  z-index: 1000;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  object-fit: cover;
+}
+
+.screenshot-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-loading { 
+    background: transparent !important;
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute !important;
+    left: 40% !important;
+    top: 20% !important;
+}
+
+.result-panel {
+  display: none !important;
+}
+
+.result-panel-active {
+  display: block;
+  position:absolute;
+  background: white;
+  z-index: 1000;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.result-panel.mdl-card {
+  width: 100%;
+  height: 100%;
+}
+
+.result-panel > .mdl-card__title {
+  color: #fff;
+  height: 90% !important;
+}
+
+.result-card-button {
+  width: 100%;
+}
+
+.material-icons.result-icon {
+  font-size: 360px;
+}
+
+.material-icons.red { color: #f44336; }
+.material-icons.blue { color: #2196f3; }
+.material-icons.green { color: #4caf50; }
+.material-icons.yellow { color: #ffeb3b; }
+.material-icons.special { color: #9c27b0; }
+.material-icons.undefined { color: #9e9e9e; }
